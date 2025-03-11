@@ -5,27 +5,34 @@ What Are the Penetration Testing Steps?
 4.	Exploitation
 5.	Final Analysis and Review
 6.	Utilize The testing Results
-Ananlysis
+
+👉Ananlysis
+
 Step:-1
 1.	Information Gathering (Reconnaissance)
 In this step, the organization being tested provides the pentester with basic details about the systems or assets within the test’s scope. Additionally, the pentester uses open-source intelligence (OSINT) to gather more information from publicly available sources about the target environment.
 इस चरण में, परीक्षण किया जा रहा संगठन, परीक्षण के दायरे में आने वाले सिस्टम या परिसंपत्तियों के बारे में बुनियादी विवरण पेन्टेस्टर को प्रदान करता है। इसके अतिरिक्त, पेन्टेस्टर लक्ष्य वातावरण के बारे में सार्वजनिक रूप से उपलब्ध स्रोतों से अधिक जानकारी एकत्र करने के लिए ओपन-सोर्स इंटेलिजेंस (OSINT) का उपयोग करता है।
 Reconnaissance is a critical step in security testing, as it allows pentesters to uncover additional details that may have been overlooked, unknown, or not shared by the organization. This step is especially valuable in internal or external network penetration testing. However, it is less common to perform extensive reconnaissance during web application, mobile application, or API penetration testing. 
 सुरक्षा परीक्षण में Reconnaissance एक महत्वपूर्ण कदम है, क्योंकि यह Pentesters को अतिरिक्त विवरण उजागर करने की अनुमति देता है जिन्हें अनदेखा किया जा सकता है, अज्ञात हो सकता है, या संगठन द्वारा साझा नहीं किया जा सकता है। यह कदम विशेष रूप से आंतरिक या बाहरी नेटवर्क पैठ परीक्षण में मूल्यवान है। हालाँकि, वेब एप्लिकेशन, मोबाइल एप्लिकेशन या API पैठ परीक्षण के दौरान व्यापक Reconnaissanceकरना कम आम है।
+
 👉There are two methods of Reconnaissance.
 1.	Passive Reconnaissance
 2.	Active Reconnaissance
 
-1.	Passive Reconnaissance: Gathering information from publicly available sources (WHOIS records, social media, public websites)
+Passive Reconnaissance: Gathering information from publicly available sources (WHOIS records, social media, public websites)
 👉Passive Reconnaissance: सार्वजनिक रूप से उपलब्ध स्रोतों (WHOIS रिकॉर्ड, सोशल मीडिया, सार्वजनिक वेबसाइट) से जानकारी एकत्र करना
-1.	Active Reconnaissance: Interacting with the target to gather more detailed information, such as using network tools to identify systems and services.
+
+Active Reconnaissance: Interacting with the target to gather more detailed information, such as using network tools to identify systems and services.
 👉Active Reconnaissance: अधिक जानकारी एकत्र करने के लिए लक्ष्य के साथ बातचीत करना, जैसे कि प्रणालियों और सेवाओं की पहचान करने के लिए नेटवर्क उपकरणों का उपयोग करना।
+
 Step:-2
-2. Discovery and Scanning
+👉Discovery and Scanning
 Discovery scanning is a method used to identify perimeter vulnerabilities. The data collected during this process helps uncover information such as open ports, available services on targeted hosts, or subdomains for web applications. After gathering this information, the pentesters analyze the scan results and develop a strategy to exploit potential weaknesses.
+
 Discovery and Scanning एक ऐसी विधि है जिसका उपयोग परिधि कमजोरियों की पहचान करने के लिए किया जाता है। इस प्रक्रिया के दौरान एकत्र किया गया डेटा खुले पोर्ट, लक्षित होस्ट पर उपलब्ध सेवाओं या वेब अनुप्रयोगों के लिए उपडोमेन जैसी जानकारी को उजागर करने में मदद करता है। यह जानकारी एकत्र करने के बाद, pentester scan परिणामों का विश्लेषण करते हैं और संभावित कमजोरियों का फायदा उठाने के लिए एक रणनीति विकसित करते हैं।
 While some organizations end their penetration tests after obtaining the discovery scan results, relying solely on these scans without manual analysis and exploitation means you won’t fully understand the extent of your attack surface. Manual testing is essential to uncover deeper vulnerabilities that automated scans might miss.
 जबकि कुछ संगठन Discovery Scanके परिणाम प्राप्त करने के बाद अपने प्रवेश परीक्षण समाप्त कर देते हैं, Manual analysis and exploitation के बिना केवल इन स्कैन पर निर्भर रहने का मतलब है कि आप अपने हमले की सतह की सीमा को पूरी तरह से नहीं समझ पाएंगे। मैन्युअल परीक्षण गहरी कमजोरियों को उजागर करने के लिए आवश्यक है जो स्वचालित स्कैन से छूट सकती हैं।
+
 👉There are different methods of Discovery scanning
 1.	Network Scanning
 2.	Port scanning
@@ -37,8 +44,11 @@ While some organizations end their penetration tests after obtaining the discove
 👉Port Scanning : खुले पोर्ट और उन पर चल रही सेवाओं की पहचान करना।
 3. Service Enumeration : Gathering information on versions of services, operating systems, etc.
 👉 Service Enumeration : सेवाओं के संस्करणों, ऑपरेटिंग सिस्टम आदि के बारे में जानकारी एकत्र करना।
+
 Required Tools :- Nmap (Network Mapper), Nessus, OpenVAS, Nikto, Masscan and other network scanning tools.
+
 Step :-3
+
 3. Vulnerability Assessment
 A vulnerability assessment is conducted in order to gain initial knowledge and identify any potential security weaknesses that could allow an outside attacker to gain access to the environment or technology being tested. A vulnerability assessment is never a replacement for a penetration test, though. 
 Vulnerability Assessment प्रारंभिक जानकारी प्राप्त करने और किसी भी संभावित सुरक्षा कमज़ोरी की पहचान करने के लिए किया जाता है जो किसी बाहरी हमलावर को परीक्षण किए जा रहे वातावरण या तकनीक तक पहुँच प्राप्त करने की अनुमति दे सकता है। हालाँकि, भेद्यता मूल्यांकन कभी भी प्रवेश परीक्षण का विकल्प नहीं होता है।
@@ -48,7 +58,9 @@ Vulnerability Assessment प्रारंभिक जानकारी प�
 •	Manual vulnerability analysis by identifying misconfigurations or insecure coding practices.
 👉 गलत कॉन्फ़िगरेशन या असुरक्षित कोडिंग प्रथाओं की पहचान करके मैन्युअल भेद्यता विश्लेषण।
 Required Tools :- Burp Suite , Nessus , OpenVAS, etc.
+
 Step:-4
+
 4. Exploitation 
 This is where the action happens!
 After interpreting the results from the vulnerability assessment, our expert penetration testers will use manual techniques, human intuition, and their backgrounds to validate, attack, and exploit those vulnerabilities. Automation and machine learning can’t do what an expert pen tester can. An expert penetration tester is able to exploit vulnerabilities that automation could easily miss.
@@ -60,7 +72,9 @@ These methods of Exploitation
 •	Techniques may include buffer overflows, injection attacks, or credential-based attacks.
 👉 तकनीकों में बफर ओवरफ्लो, इंजेक्शन हमले या क्रेडेंशियल-आधारित हमले शामिल हो सकते हैं।
 Required Tools :- Metasploit framework , Burpsuite , Exploit-DB , SQl map and others exploitation tools.
+
 Step:-5
+
 5. Final Analysis and Review
 When you work with KirkpatrickPrice on security testing, we deliver our findings in a report format.
 जब आप सुरक्षा परीक्षण पर किर्कपैट्रिकप्राइस के साथ काम करते हैं, तो हम अपने निष्कर्षों को एक रिपोर्ट प्रारूप में प्रस्तुत करते हैं।
