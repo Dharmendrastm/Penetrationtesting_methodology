@@ -120,6 +120,7 @@ After interpreting the results from the vulnerability assessment, our expert pen
 ---
 
 ## 📜 **Step 5: Final Analysis and Review (Reporting)**  
+
 ### 📊 **What Happens in this Step?**
 After successful exploitation, the penetration testers **document their findings**, provide detailed reports, and make remediation recommendations.
 
@@ -151,6 +152,7 @@ Tasks
 ## 📜 **Step 6: Utilize The Testing Results**  
 ### 🚀 **What Happens in this Step?**
 The final stage of penetration testing is crucial. It involves using test results to prioritize vulnerabilities, assess their impact, develop remediation strategies, and guide future decisions. 
+
 ✅ **Hindi:**
 प्रवेश परीक्षण का अंतिम चरण महत्वपूर्ण है। इसमें कमजोरियों को प्राथमिकता देने, उनके प्रभाव का आकलन करने, उपचार की रणनीति विकसित करने और भविष्य के निर्णयों को निर्देशित करने के लिए परीक्षण परिणामों का उपयोग करना शामिल है।
 
